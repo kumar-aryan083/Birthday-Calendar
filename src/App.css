@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.CalendarContainer {
+  margin-bottom: 20px;
+}
+
+.BirthdayListContainer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.FavoriteBirthdaysContainer {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  max-height: 300px; /* Fixed height for the container */
+  overflow-y: auto; /* Allow scrolling within the container */
+}
+
+.Birthday {
+  margin-bottom: 10px;
+}
+
+.AddButton,
+.DeleteButton {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.DeleteButton {
+  background-color: #f44336;
+}
+
+.Pagination {
+  margin-top: 10px;
+}
+
+.Pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
